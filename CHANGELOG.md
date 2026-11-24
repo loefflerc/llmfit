@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.22](https://github.com/AlexsJones/llmfit/compare/v1.1.21...v1.1.22) (2026-11-24)
+
+
+### Bug Fixes
+
+* **claim:** size the memory floor from the fit estimate, KV cache included ([#1269](https://github.com/AlexsJones/llmfit/issues/1269)) ([e472447](https://github.com/AlexsJones/llmfit/commit/e472447c24040cfed37ce14ff3f9b3e717b60a07))
+* **models:** include ggml block scales in q8_0/q4_0 KV cache sizes ([#1270](https://github.com/AlexsJones/llmfit/issues/1270)) ([0b2792f](https://github.com/AlexsJones/llmfit/commit/0b2792f7ce79c1f1e63d1be3b6af772fb3939805))
+* **quality:** match --roles names case-insensitively in quality runs ([#1278](https://github.com/AlexsJones/llmfit/issues/1278)) ([1b0d35e](https://github.com/AlexsJones/llmfit/commit/1b0d35e7a6d7c6c744cb69fd0c16d26fc53c40dd))
+
 ## [1.1.21](https://github.com/AlexsJones/llmfit/compare/v1.1.20...v1.1.21) (2026-11-23)
 
 
